@@ -1,5 +1,5 @@
 class List < ApplicationRecord
-
+	attachment :image
 	def change
 		create_table :lists do |t|
 
